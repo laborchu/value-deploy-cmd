@@ -7,3 +7,7 @@ source ~/.bashrc
 nvm install 0.10.36
 echo "nvm use v0.10.36" >> ~/.bashrc
 source ~/.bashrc
+npm install -g bower
+npm install -g grunt-cli
+npm install -g spm@2.2.12
+npm install spm-build@0.3.17 -g

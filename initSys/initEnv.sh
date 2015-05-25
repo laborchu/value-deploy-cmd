@@ -7,3 +7,5 @@ if [ $DOCKER_NS ];then
 else  
     echo "export DOCKER_NS=192.168.${domain}.%s/16" >> ~/.bashrc
 fi
+
+sudo apt-get install unzip
