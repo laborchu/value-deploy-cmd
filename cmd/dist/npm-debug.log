@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/home/root1/.nvm/v0.10.36/lib/node_modules/cnpm/node_modules/.bin/npm',
+1 verbose cli   '--userconfig=/home/root1/.cnpmrc',
+1 verbose cli   '--disturl=https://npm.taobao.org/mirrors/node',
+1 verbose cli   '--cache=/home/root1/.cnpm',
+1 verbose cli   '--registry=https://registry.npm.taobao.org',
+1 verbose cli   '--node-gyp=/home/root1/.nvm/v0.10.36/lib/node_modules/cnpm/node_modules/pangyp/bin/node-gyp.js',
+1 verbose cli   'install' ]
+2 info using npm@2.7.6
+3 info using node@v0.10.36
+4 verbose readDependencies loading dependencies from /home/root1/value-deploy-cmd/cmd/dist/package.json
+5 error install Couldn't read dependencies
+6 verbose stack Error: ENOENT, open '/home/root1/value-deploy-cmd/cmd/dist/package.json'
+7 verbose cwd /home/root1/value-deploy-cmd/cmd/dist
+8 error Linux 3.8.0-19-generic
+9 error argv "node" "/home/root1/.nvm/v0.10.36/lib/node_modules/cnpm/node_modules/.bin/npm" "--userconfig=/home/root1/.cnpmrc" "--disturl=https://npm.taobao.org/mirrors/node" "--cache=/home/root1/.cnpm" "--registry=https://registry.npm.taobao.org" "--node-gyp=/home/root1/.nvm/v0.10.36/lib/node_modules/cnpm/node_modules/pangyp/bin/node-gyp.js" "install"
+10 error node v0.10.36
+11 error npm  v2.7.6
+12 error path /home/root1/value-deploy-cmd/cmd/dist/package.json
+13 error code ENOPACKAGEJSON
+14 error errno 34
+15 error package.json ENOENT, open '/home/root1/value-deploy-cmd/cmd/dist/package.json'
+15 error package.json This is most likely not a problem with npm itself.
+15 error package.json npm can't find a package.json file in your current directory.
+16 verbose exit [ 34, true ]
