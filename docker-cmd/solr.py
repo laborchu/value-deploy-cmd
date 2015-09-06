@@ -10,10 +10,10 @@ cmd = sys.argv[1]
 index = sys.argv[2]
 
 #设置端口和ip
-startPort = (4080 + int(index)) * 10
-ip = str(170 + int(index))
-sshPort = str(startPort + 1)
-tomcatPort = str(startPort + 2)
+startPort = 41070 + 2*int(index)-1
+ip = str(80 + int(index))
+sshPort = str(startPort )
+tomcatPort = str(startPort + 1)
 
 #初始化实例
 executor = Executor('value-solr', {

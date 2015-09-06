@@ -8,9 +8,9 @@ cmd = sys.argv[1]
 index = sys.argv[2]
 
 #设置端口和ip
-startPort = (4110 + int(index)) * 10
-ip = str(160 + int(index))
-sshPort = str(startPort + 1)
+startPort = 40020+int(index)
+ip = str(25 + int(index))
+sshPort = str(startPort)
 
 #初始化实例
 executor = Executor('value-db', {

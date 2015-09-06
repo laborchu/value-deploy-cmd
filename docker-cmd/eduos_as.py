@@ -9,9 +9,9 @@ cmd = sys.argv[1]
 index = sys.argv[2]
 
 #设置端口和ip
-startPort = (4060 + int(index)) * 10
-ip = str(30 + int(index))
-sshPort = str(startPort + 1)
+startPort = 40035 + int(index)
+ip = str(100 + int(index))
+sshPort = str(startPort )
 
 #初始化实例
 executor = Executor('eduos-as', {

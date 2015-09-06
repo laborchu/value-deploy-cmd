@@ -8,11 +8,11 @@ cmd = sys.argv[1]
 index = sys.argv[2]
 
 #设置端口和ip
-startPort = (4050 + int(index)) * 10
-ip = str(110 + int(index))
-sshPort = str(startPort + 1)
-rtmpPort = str(startPort + 2)
-httpPort = str(startPort + 3)
+startPort = 42075 + 3*int(index)-2
+ip = str(75 + int(index))
+sshPort = str(startPort )
+rtmpPort = str(startPort + 1)
+httpPort = str(startPort + 2)
 
 #初始化实例
 executor = Executor('value-sms', {

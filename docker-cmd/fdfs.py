@@ -9,11 +9,11 @@ cmd = sys.argv[1]
 index = sys.argv[2]
 
 #设置端口和ip
-startPort = (4031 + int(index)) * 10
-ip = str(140 + int(index))
-sshPort = str(startPort + 1)
-trackerPort = str(startPort + 2)
-storagePort = str(startPort + 3)
+startPort = 42020 + 3*int(index)-2
+ip = str(30 + int(index))
+sshPort = str(startPort )
+trackerPort = str(startPort + 1)
+storagePort = str(startPort + 2)
 
 #初始化实例
 executor = Executor('value-fdfs', {

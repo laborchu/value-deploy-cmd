@@ -11,10 +11,10 @@ cmd = sys.argv[1]
 index = sys.argv[2]
 
 #设置端口和ip
-startPort = (4181 + int(index)) * 10
-ip = str(130 + int(index))
-sshPort = str(startPort + 1)
-debugPort = str(startPort + 2)
+startPort = 41080 +2*int(index)-1
+ip = str(85 + int(index))
+sshPort = str(startPort)
+debugPort = str(startPort + 1)
 
 executor = Executor('el-stat', {
     "ip": ip,

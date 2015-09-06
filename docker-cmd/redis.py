@@ -8,10 +8,10 @@ cmd = sys.argv[1]
 index = sys.argv[2]
 
 #设置端口和ip
-startPort = (4150 + int(index)) * 10
-ip = str(70 + int(index))
-sshPort = str(startPort + 1)
-redisPort = str(startPort + 2)
+startPort = 41050 + 2*int(index)-1
+ip = str(65 + int(index))
+sshPort = str(startPort )
+redisPort = str(startPort + 1)
 
 #初始化实例
 executor = Executor('value-redis', {

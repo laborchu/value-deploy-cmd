@@ -11,11 +11,11 @@ cmd = sys.argv[1]
 index = sys.argv[2]
 
 #设置端口和ip
-startPort = (4141 + int(index)) * 10
-ip = str(60 + int(index))
-sshPort = str(startPort + 1)
-serverPort = str(startPort + 2)
-debugPort = str(startPort + 3)
+startPort = (42090 + 3*int(index)-1) 
+ip = str(110 + int(index))
+sshPort = str(startPort )
+serverPort = str(startPort + 1)
+debugPort = str(startPort + 2)
 
 if cmd == 'create':
   hostIp = os.environ.get('HOST_IP')

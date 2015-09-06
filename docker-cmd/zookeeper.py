@@ -7,9 +7,9 @@ from Executor import *
 cmd = sys.argv[1]
 
 #设置端口和ip
-ip = 6
-sshPort = "40016"
-clientPort="40017"
+ip = 5
+sshPort = "40005"
+clientPort="40006"
 
 #初始化实例
 executor = Executor('value-zoo', {

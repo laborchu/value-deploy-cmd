@@ -9,10 +9,10 @@ cmd = sys.argv[1]
 index = sys.argv[2]
 
 #设置端口和ip
-startPort = (4040 + int(index)) * 10
-ip = str(120 + int(index))
-sshPort = str(startPort + 1)
-ftpPort = str(startPort + 2)
+startPort = 41060 + 2*int(index)-1
+ip = str(70 + int(index))
+sshPort = str(startPort)
+ftpPort = str(startPort + 1)
 
 #初始化实例
 executor = Executor('value-cw', {

@@ -5,10 +5,10 @@ from Executor import *
 
 cmd = sys.argv[1]
 index = sys.argv[2]
-startPort = (4051 + int(index)) * 10
-ip = str(10 + int(index))
-sshPort = str(startPort + 1)
-nginxPort = str(startPort + 2)
+startPort = 41020 + 2*int(index)-1
+ip = str(20 + int(index))
+sshPort = str(startPort )
+nginxPort = str(startPort + 1)
 
 #初始化实例
 executor = Executor('value-slb', {

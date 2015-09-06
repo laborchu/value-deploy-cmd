@@ -8,7 +8,7 @@ cmd = sys.argv[1]
 
 #设置端口和ip
 ip = 2
-sshPort = "40011"
+sshPort = "40002"
 
 #初始化实例
 executor = Executor('value-dns', {

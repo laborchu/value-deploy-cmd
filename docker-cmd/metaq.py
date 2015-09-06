@@ -8,11 +8,11 @@ cmd = sys.argv[1]
 index = sys.argv[2]
 
 #设置端口和ip
-startPort = (4121 + int(index)) * 10
-ip = str(180 + int(index))
-sshPort = str(startPort + 1)
-serverPort = str(startPort + 2)
-httpPort = str(startPort + 3)
+startPort = 42035 + 3*int(index)-2
+ip = str(35 + int(index))
+sshPort = str(startPort )
+serverPort = str(startPort + 1)
+httpPort = str(startPort + 2)
 
 #初始化实例
 executor = Executor('value-metaq', {

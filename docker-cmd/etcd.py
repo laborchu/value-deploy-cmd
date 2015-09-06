@@ -7,8 +7,8 @@ from Executor import *
 cmd = sys.argv[1]
 
 #设置端口和ip
-ip = 5
-sshPort = "40015"
+ip = 4
+sshPort = "40004"
 
 #初始化实例
 executor = Executor('value-etcd', {
