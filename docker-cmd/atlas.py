@@ -17,4 +17,4 @@ executor = Executor('value-atlas', {
         "~/authorized_keys": "/root/.ssh/authorized_keys"
     }
 })
-executor.execute(cmd, index)
+executor.execute(cmd)
