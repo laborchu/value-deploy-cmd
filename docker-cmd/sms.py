@@ -8,7 +8,7 @@ cmd = sys.argv[1]
 index = sys.argv[2]
 
 #设置端口和ip
-startPort = 42075 + 3*int(index)-2
+startPort = 42095 + 3*int(index)-2
 ip = str(75 + int(index))
 sshPort = str(startPort )
 rtmpPort = str(startPort + 1)

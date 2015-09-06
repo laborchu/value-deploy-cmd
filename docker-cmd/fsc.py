@@ -11,7 +11,7 @@ cmd = sys.argv[1]
 index = sys.argv[2]
 
 #设置端口和ip
-startPort = (42090 + 3*int(index)-1) 
+startPort = (42110 + 3*int(index)-1) 
 ip = str(110 + int(index))
 sshPort = str(startPort )
 serverPort = str(startPort + 1)
