@@ -23,8 +23,8 @@ executor = Executor('value-cw', {
         ftpPort: "21"
     },
     "volumeMap": {
-        "/home/res/eduos/cw": "/home/cw",
-        "/home/res/paper": "/home/paper",
+        "/new_home/res/eduos/cw": "/home/cw",
+        "/new_home/res/paper": "/home/paper",
         "~/authorized_keys": "/root/.ssh/authorized_keys"
     }
 })
