@@ -20,7 +20,7 @@ executor = Executor('value-nodejs', {
     "sshPort": sshPort,
     "portMap": {
         "127.0.0.1:" + sshPort: "22",
-        serverPort: "3001"
+        serverPort: "3000"
     },
     "volumeMap": {
         "/new_home/res/nodejs": "/home/nodejs",
