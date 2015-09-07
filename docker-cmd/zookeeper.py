@@ -21,7 +21,7 @@ executor = Executor('value-zoo', {
     },
     "volumeMap": {
         "~/authorized_keys": "/root/.ssh/authorized_keys",
-        "/home/res/zookeeper": "/home/zookeeper"
+        "/new_home/res/zookeeper": "/home/zookeeper"
     }
 })
 executor.execute(cmd)
