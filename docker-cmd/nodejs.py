@@ -10,7 +10,7 @@ index = sys.argv[2]
 
 #设置端口和ip
 startPort = 41030 + 2*int(index)-1
-ip = str(45 + int(index))
+ip = str(55 + int(index))
 sshPort = str(startPort )
 serverPort = str(startPort + 1)
 
