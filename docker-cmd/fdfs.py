@@ -25,7 +25,7 @@ executor = Executor('value-fdfs', {
 	storagePort: str(storagePort)
     },
     "volumeMap": {
-        "/home/res/fdfs/fdfs"+index: "/home/fdfs",
+        "/new_home/res/fdfs/fdfs"+index: "/home/fdfs",
         "~/authorized_keys": "/root/.ssh/authorized_keys"
     }
 })
