@@ -12,12 +12,12 @@ bye
 EOF
 
 tar -zxvf spm.tar.gz 
-rm -R home/res/spm 
-mv spm home/res/
+rm -R new_home/res/spm 
+mv spm new_home/res/
 
 tar -zxvf thirdparty.tar.gz 
-rm -R home/res/thirdparty  
-mv thirdparty home/res/
+rm -R new_home/res/thirdparty  
+mv thirdparty new_home/res/
 
 tar -zxvf docker.tar.gz
 rm -R ~/docker
