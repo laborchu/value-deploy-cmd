@@ -20,7 +20,7 @@ executor = Executor('value-db', {
         "127.0.0.1:" + sshPort: "22"
     },
     "volumeMap": {
-        "/home/mysql/mysql"+str(index): "/home/mysql",
+        "/new_home/mysql/mysql"+str(index): "/home/mysql",
         "~/authorized_keys": "/root/.ssh/authorized_keys"
     }
 })
