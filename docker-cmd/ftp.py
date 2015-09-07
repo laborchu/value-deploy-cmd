@@ -23,7 +23,7 @@ executor = Executor('value-ftp', {
     },
     "volumeMap": {
         "~/authorized_keys": "/root/.ssh/authorized_keys",
-        "/home/ftp/pureftp"+str(index): "/home/ftp"
+        "/new_home/ftp/pureftp"+str(index): "/home/ftp"
     }
 })
 executor.execute(cmd, index)

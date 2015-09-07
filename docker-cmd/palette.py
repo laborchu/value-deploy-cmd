@@ -23,7 +23,7 @@ executor = Executor('value-nodejs', {
         serverPort: "3001"
     },
     "volumeMap": {
-        "/home/res/nodejs/palette": "/home/palette",
+        "/new_home/res/nodejs/palette": "/home/palette",
         "~/authorized_keys": "/root/.ssh/authorized_keys"
     }
 })
