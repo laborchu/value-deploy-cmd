@@ -14,7 +14,7 @@ ip = str(95 + int(index))
 sshPort = str(startPort )
 
 #初始化实例
-elmExe = Executor('elm-as', {
+elmExe = Executor('elo-as', {
     "ip": ip,
     "sshPort": sshPort,
     "portMap": {
