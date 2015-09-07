@@ -24,7 +24,7 @@ executor = Executor('value-sms', {
         httpPort: "80"
     },
     "volumeMap": {
-        "/home/res/sms": "/home/sms",
+        "/new_home/res/sms": "/home/sms",
         "~/authorized_keys": "/root/.ssh/authorized_keys"
     }
 })
