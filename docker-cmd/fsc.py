@@ -19,8 +19,8 @@ debugPort = str(startPort + 2)
 
 if cmd == 'create':
   hostIp = os.environ.get('HOST_IP')
-  os.system("mkdir -p /home/res/eduos/fsc/"+index)
-  os.system("echo "+hostIp+":"+serverPort+" > /home/res/eduos/fsc/"+index+"/ip.txt")
+  os.system("mkdir -p /new_home/res/eduos/fsc/"+index)
+  os.system("echo "+hostIp+":"+serverPort+" > /new_home/res/eduos/fsc/"+index+"/ip.txt")
 
 executor = Executor('eduos-fsc', {
     "ip": ip,
@@ -32,8 +32,8 @@ executor = Executor('eduos-fsc', {
     },
     "volumeMap": {
         "~/authorized_keys": "/root/.ssh/authorized_keys",
-	"/home/res/eduos/fsc/app" : "/home/fsc",
-	"/home/res/eduos/fsc/"+index+"/ip.txt" : "/root/ip.txt",
+	"/new_home/res/eduos/fsc/app" : "/home/fsc",
+	"/new_home/res/eduos/fsc/"+index+"/ip.txt" : "/root/ip.txt",
 
     }
 })
