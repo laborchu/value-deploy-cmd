@@ -21,7 +21,7 @@ elmExe = Executor('elm-as', {
         "127.0.0.1:" + sshPort: "22"
     },
     "volumeMap": {
-        "/home/res/elm": "/home/res/elm",
+        "/new_home/res/elm": "/home/res/elm",
         "~/authorized_keys": "/root/.ssh/authorized_keys"
     }
 })
