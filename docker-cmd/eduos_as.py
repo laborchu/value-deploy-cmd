@@ -21,7 +21,7 @@ executor = Executor('eduos-as', {
         "127.0.0.1:" + sshPort: "22"
     },
     "volumeMap": {
-        "/home/res/eduos": "/home/res/eduos",
+        "/new_home/res/eduos": "/home/res/eduos",
         "~/authorized_keys": "/root/.ssh/authorized_keys"
     }
 })
