@@ -13,16 +13,17 @@ class Executor:
                 'value-slb': 'reg.docker:5000/ubuntu13.10:slb',  #负载均衡镜像
                 'value-sms': 'reg.docker:5000/ubuntu13.10:vss',  #流媒体服务器
                 'value-etcd': 'reg.docker:5000/ubuntu13.10:etcd',  #etcd键值服务
-		'value-zoo': 'reg.docker:5000/ubuntu13.10:zoo',  #zookeeper服务
-		'value-metaq': 'reg.docker:5000/ubuntu13.10:metaq',  #metaq服务
-		'value-nodejs': 'reg.docker:5000/ubuntu13.10:nodejs',  #nodejs服务
-		'value-redis': 'reg.docker:5000/ubuntu13.10:redis',  #redis服务
-		'value-ftp': 'reg.docker:5000/ubuntu13.10:ftp',  #ftp服务
-		'value-atlas': 'reg.docker:5000/ubuntu13.10:atlas',  #atlas服务
+        		'value-zoo': 'reg.docker:5000/ubuntu13.10:zoo',  #zookeeper服务
+        		'value-metaq': 'reg.docker:5000/ubuntu13.10:metaq',  #metaq服务
+        		'value-nodejs': 'reg.docker:5000/ubuntu13.10:nodejs',  #nodejs服务
+        		'value-redis': 'reg.docker:5000/ubuntu13.10:redis',  #redis服务
+        		'value-ftp': 'reg.docker:5000/ubuntu13.10:ftp',  #ftp服务
+        		'value-atlas': 'reg.docker:5000/ubuntu13.10:atlas',  #atlas服务
 
                 'eduos-as': 'reg.docker:5000/ubuntu13.10:eduos-as',  #eduos应用镜像
                 'eduos-fsc': 'reg.docker:5000/ubuntu13.10:eduos-fsc',  #eduos-fsc应用镜像
                 'elm-as': 'reg.docker:5000/ubuntu13.10:elm-as',  #elmos
+                'elo-as': 'reg.docker:5000/ubuntu13.10:elo-as',  #elo
                 'el-stat': 'reg.docker:5000/ubuntu13.10:el-stat' #el-stat
     }
     #可执行命令
