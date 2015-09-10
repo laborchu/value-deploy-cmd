@@ -3,7 +3,6 @@
 import sys
 import time
 from Executor import *
-from Slb import *
 
 #获取参数
 cmd = sys.argv[1]
