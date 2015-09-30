@@ -22,6 +22,7 @@ executor = Executor('eduos-as', {
     },
     "volumeMap": {
         "/new_home/res/eduos": "/home/res/eduos",
+        "/new_home/res/logs/eduos/"+index: "/home/software/apache-tomcat-8.0.3/logs",
         "~/authorized_keys": "/root/.ssh/authorized_keys"
     }
 })

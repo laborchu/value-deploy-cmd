@@ -9,10 +9,10 @@ cmd = sys.argv[1]
 index = sys.argv[2]
 
 #设置端口和ip
-startPort = (4191 + int(index)) * 10
-ip = str(150 + int(index))
-sshPort = str(startPort + 1)
-serverPort = str(startPort + 2)
+startPort = 41030 + 2*int(index)-1
+ip = str(55 + int(index))
+sshPort = str(startPort )
+serverPort = str(startPort + 1)
 
 #初始化实例
 executor = Executor('value-nodejs', {

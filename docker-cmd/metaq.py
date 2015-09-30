@@ -24,7 +24,8 @@ executor = Executor('value-metaq', {
         httpPort: "8120"
     },
     "volumeMap": {
-        "~/authorized_keys": "/root/.ssh/authorized_keys"
+        "~/authorized_keys": "/root/.ssh/authorized_keys",
+	"/new_home/res/logs/metaq/"+index: "/home/software/metaq-server/logs"
     }
 })
 executor.execute(cmd, index)

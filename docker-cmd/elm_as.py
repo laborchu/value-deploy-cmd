@@ -22,6 +22,7 @@ elmExe = Executor('elm-as', {
     },
     "volumeMap": {
         "/new_home/res/elm": "/home/res/elm",
+	"/new_home/res/logs/elm/"+index: "/home/software/apache-tomcat-8.0.3/logs",
         "~/authorized_keys": "/root/.ssh/authorized_keys"
     }
 })

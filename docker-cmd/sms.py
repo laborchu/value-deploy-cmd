@@ -25,6 +25,7 @@ executor = Executor('value-sms', {
     },
     "volumeMap": {
         "/new_home/res/sms": "/home/sms",
+	 "/new_home/res/logs/sms/"+index: "/usr/local/nginx/logs",
         "~/authorized_keys": "/root/.ssh/authorized_keys"
     }
 })

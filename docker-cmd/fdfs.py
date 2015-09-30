@@ -26,6 +26,8 @@ executor = Executor('value-fdfs', {
     },
     "volumeMap": {
         "/new_home/res/fdfs/fdfs"+index: "/home/fdfs",
+	"/new_home/res/logs/fdfs/"+index+"/storaged.log": "/home/fdfs/fastdfs_storage/logs/storaged.log",
+	"/new_home/res/logs/fdfs/"+index+"/trackerd.log": "/home/fdfs/fastdfs_tracker/logs/trackerd.log",
         "~/authorized_keys": "/root/.ssh/authorized_keys"
     }
 })

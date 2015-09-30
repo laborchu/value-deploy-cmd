@@ -32,6 +32,7 @@ executor = Executor('eduos-fsc', {
     },
     "volumeMap": {
         "~/authorized_keys": "/root/.ssh/authorized_keys",
+	"/new_home/res/logs/fsc/"+index: "/home/logs",
 	"/new_home/res/eduos/fsc/app" : "/home/fsc",
 	"/new_home/res/eduos/fsc/"+index+"/ip.txt" : "/root/ip.txt",
 

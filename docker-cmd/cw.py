@@ -25,6 +25,7 @@ executor = Executor('value-cw', {
     "volumeMap": {
         "/new_home/res/eduos/cw": "/home/cw",
         "/new_home/res/paper": "/home/paper",
+	"/new_home/res/logs/cw/"+index: "/home/logs",
         "~/authorized_keys": "/root/.ssh/authorized_keys"
     }
 })

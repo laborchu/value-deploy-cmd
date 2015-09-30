@@ -22,6 +22,7 @@ eloExe = Executor('elo-as', {
     },
     "volumeMap": {
         "/new_home/res/elo": "/home/res/elo",
+	"/new_home/res/logs/elo/"+index: "/home/software/apache-tomcat-8.0.3/logs",
         "~/authorized_keys": "/root/.ssh/authorized_keys"
     }
 })

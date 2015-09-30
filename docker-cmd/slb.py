@@ -19,7 +19,8 @@ executor = Executor('value-slb', {
         "127.0.0.1:" + nginxPort: "80"
     },
     "volumeMap": {
-        "~/authorized_keys": "/root/.ssh/authorized_keys"
+        "~/authorized_keys": "/root/.ssh/authorized_keys",
+	"/new_home/res/logs/slb/"+index: "/usr/local/nginx/logs"
     }
 })
 executor.execute(cmd, index)

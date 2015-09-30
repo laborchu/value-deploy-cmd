@@ -25,6 +25,7 @@ executor = Executor('el-stat', {
     },
     "volumeMap": {
         "~/authorized_keys": "/root/.ssh/authorized_keys",
+	"/new_home/res/logs/el-stat/"+index: "/home/logs",
 	"/new_home/res/eduos/stat" : "/home/stat"
     }
 })
