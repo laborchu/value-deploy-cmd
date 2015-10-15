@@ -5,7 +5,7 @@ import os
 class Executor:
     # value镜像
     valueImg = {'value-cs': 'reg.docker:5000/ubuntu13.10:cs',  # 缓存镜像
-                'value-cw': 'reg.docker:5000/ubuntu13.10:cw2.0',  #课件镜像
+                'value-cw': 'reg.docker:5000/ubuntu13.10:cw2.1',  #课件镜像
                 'value-db': 'reg.docker:5000/ubuntu13.10:mysql',  #数据库镜像
                 'value-dns': 'reg.docker:5000/ubuntu13.10:dns',  #dns镜像
                 'value-fdfs': 'reg.docker:5000/ubuntu13.10:fdfs',  #文件系统镜像
