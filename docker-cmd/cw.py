@@ -32,7 +32,9 @@ executor = Executor('value-cw', {
 executor.execute(cmd, index)
 
 if cmd == 'create':
+    time.sleep(3)
     os.system("ssh root@127.0.0.1 -p %s 'sh /root/install.sh'" % (sshPort,))
 
 if cmd == 'create' or cmd == 'restart':
+    time.sleep(3)
     executor.app_restart(index)
