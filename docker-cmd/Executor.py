@@ -26,7 +26,11 @@ class Executor:
                 'elm-as': 'reg.docker:5000/ubuntu13.10:elm-as',  #elmos
                 'elo-as': 'reg.docker:5000/ubuntu13.10:elo-as',  #elo
                 'el-stat': 'reg.docker:5000/ubuntu13.10:el-stat', #el-stat
-                'cas-as': 'reg.docker:5000/ubuntu13.10:elo-as' #cas-as
+                'cas-as': 'reg.docker:5000/ubuntu13.10:elo-as', #cas-as
+
+                'coe-os-as': 'reg.docker:5000/ubuntu13.10:coe-os-as',
+                'coe-smp-as': 'reg.docker:5000/ubuntu13.10:coe-smp-as',
+                'coe-sop-as': 'reg.docker:5000/ubuntu13.10:coe-sop-as'
     }
     #可执行命令
     cmdTuple = ('create', 'remove', 'restart','stop', 'ssh', 'app_restart')
