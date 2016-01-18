@@ -28,6 +28,7 @@ class Executor:
                 'el-stat': 'reg.docker:5000/ubuntu13.10:el-stat', #el-stat
                 'cas-as': 'reg.docker:5000/ubuntu13.10:elo-as', #cas-as
 
+		'coe-fsc': 'reg.docker:5000/ubuntu13.10:eduos-fsc',  #eduos-fsc应用镜像
                 'coe-os-as': 'reg.docker:5000/ubuntu13.10:coe-os-as',
                 'coe-smp-as': 'reg.docker:5000/ubuntu13.10:coe-smp-as',
                 'coe-sop-as': 'reg.docker:5000/ubuntu13.10:coe-sop-as'
