@@ -5,16 +5,21 @@ from Executor import *
 
 #获取参数
 cmd = sys.argv[1]
+index = sys.argv[2]
+
+startPort = 40006 + 3*int(index)-2
+ip = str(5 + int(index))
+sshPort = str(startPort )
 
 #初始化实例
 executor = Executor('value-atlas', {
-    "ip": "6",
-    "sshPort": "40007",
+    "ip": ip,
+    "sshPort": sshPort,
     "portMap": {
-        "127.0.0.1:40007" : "22"
+        "127.0.0.1:"+sshPort : "22"
     },
     "volumeMap": {
         "~/authorized_keys": "/root/.ssh/authorized_keys"
     }
 })
-executor.execute(cmd)
+executor.execute(cmd,index)
