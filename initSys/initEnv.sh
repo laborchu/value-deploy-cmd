@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #初始化docker域
-domain="3"
+domain="2"
 if [ $DOCKER_NS ];then  
     echo "ORACLE_HOME = $DOCKER_NS"  
 else  
